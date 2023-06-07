@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-07T12:02:08 BDT" name="Suite" finished-at="2023-06-07T12:02:41 BDT" duration-ms="32522">
+    <groups>
+    </groups>
+    <test started-at="2023-06-07T12:02:08 BDT" name="Test" finished-at="2023-06-07T12:02:41 BDT" duration-ms="32522">
+      <class name="TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:09 BDT" name="setup" finished-at="2023-06-07T12:02:13 BDT" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidUsernameInvalidPasswordForLoginPage()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:13 BDT" name="InvalidUsernameInvalidPasswordForLoginPage" finished-at="2023-06-07T12:02:15 BDT" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameInvalidPasswordForLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:15 BDT" name="teardown" finished-at="2023-06-07T12:02:19 BDT" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:19 BDT" name="setup" finished-at="2023-06-07T12:02:20 BDT" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidUsernameValidPasswordForLoginPage()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:20 BDT" name="InvalidUsernameValidPasswordForLoginPage" finished-at="2023-06-07T12:02:22 BDT" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameValidPasswordForLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:22 BDT" name="teardown" finished-at="2023-06-07T12:02:25 BDT" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:25 BDT" name="setup" finished-at="2023-06-07T12:02:27 BDT" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validUsernameInvalidPasswordForLoginPage()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:27 BDT" name="validUsernameInvalidPasswordForLoginPage" finished-at="2023-06-07T12:02:30 BDT" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPasswordForLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:30 BDT" name="teardown" finished-at="2023-06-07T12:02:33 BDT" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:33 BDT" name="setup" finished-at="2023-06-07T12:02:36 BDT" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validUsernamePasswordForLoginPage()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:36 BDT" name="validUsernamePasswordForLoginPage" finished-at="2023-06-07T12:02:38 BDT" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernamePasswordForLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage@537f60bf]" started-at="2023-06-07T12:02:38 BDT" name="teardown" finished-at="2023-06-07T12:02:41 BDT" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase_Selenium4_TestNG_Jenkins_GitCloud.TestCaseFor_LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
