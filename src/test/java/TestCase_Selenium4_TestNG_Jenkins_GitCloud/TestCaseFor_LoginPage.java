@@ -10,8 +10,8 @@ public class TestCaseFor_LoginPage extends ClassFor_LoginPage {
 	@Test
 	public void validUsernamePasswordForLoginPage() {
 
-		driver.get("https://www.saucedemo.com/");
-		driver.manage().window().maximize();
+		//driver.get("https://www.saucedemo.com/");
+		//driver.manage().window().maximize();
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
 		driver.findElement(By.id("login-button")).click();
@@ -22,8 +22,8 @@ public class TestCaseFor_LoginPage extends ClassFor_LoginPage {
 	@Test
 	public void InvalidUsernameValidPasswordForLoginPage() {
 
-		driver.get("https://www.saucedemo.com/");
-		driver.manage().window().maximize();
+		//driver.get("https://www.saucedemo.com/");
+		//driver.manage().window().maximize();
 		driver.findElement(By.id("user-name")).sendKeys("standard_user1");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
 		driver.findElement(By.id("login-button")).click();
@@ -34,8 +34,8 @@ public class TestCaseFor_LoginPage extends ClassFor_LoginPage {
 	@Test
 	public void validUsernameInvalidPasswordForLoginPage() {
 
-		driver.get("https://www.saucedemo.com/");
-		driver.manage().window().maximize();
+		//driver.get("https://www.saucedemo.com/");
+		//driver.manage().window().maximize();
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce1");
 		driver.findElement(By.id("login-button")).click();
@@ -46,8 +46,8 @@ public class TestCaseFor_LoginPage extends ClassFor_LoginPage {
 	@Test
 	public void InvalidUsernameInvalidPasswordForLoginPage() {
 
-		driver.get("https://www.saucedemo.com/");
-		driver.manage().window().maximize();
+		//driver.get("https://www.saucedemo.com/");
+		//driver.manage().window().maximize();
 		driver.findElement(By.id("user-name")).sendKeys("standard_user1");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce1");
 		driver.findElement(By.id("login-button")).click();

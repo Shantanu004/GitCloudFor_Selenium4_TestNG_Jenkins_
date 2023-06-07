@@ -16,8 +16,8 @@ public class ClassFor_LoginPage {
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		//driver.get("https://www.saucedemo.com/");
-		//driver.manage().window().maximize();
+	    driver.get("https://www.saucedemo.com/");
+		driver.manage().window().maximize();
 	}
 	
     @AfterMethod
