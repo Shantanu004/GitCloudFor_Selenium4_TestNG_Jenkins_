@@ -54,4 +54,15 @@ public class TestCaseFor_LoginPage extends ClassFor_LoginPage {
 
 		System.out.println("Login Fail");		
 	}
+	
+	public void EmptyUsernamePasswordForLoginPage() {
+
+		//driver.get("https://www.saucedemo.com/");
+		//driver.manage().window().maximize();
+		driver.findElement(By.id("user-name")).sendKeys(" ");
+		driver.findElement(By.id("password")).sendKeys(" ");
+		driver.findElement(By.id("login-button")).click();
+
+		System.out.println("Login Fail");		
+	}
 }
